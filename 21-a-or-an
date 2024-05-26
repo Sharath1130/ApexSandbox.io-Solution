@@ -4,6 +4,7 @@ public String aOrAn(String word) {
     for (String vowel : vowels) {
         if (word.startsWithIgnoreCase(vowel)) {
             return 'a' + word;
+            return 'an' + word;
         }
     }
 }
