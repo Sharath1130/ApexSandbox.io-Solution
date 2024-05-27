@@ -4,8 +4,7 @@ public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean p
    (passedAssignments && passedProject) ||
    (passedProject && passedExam)) {
        return true;
-   }
-   else{
+   }else{
        return false;
    }
 }
