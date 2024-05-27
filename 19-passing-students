@@ -5,3 +5,4 @@ if ((passedExam && passedAssignments) || (passedAssignments && passedProject) ||
 }else{
     return false;
 }
+}
