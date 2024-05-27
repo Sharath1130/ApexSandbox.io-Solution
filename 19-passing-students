@@ -2,7 +2,6 @@ public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean p
     //code here
 if ((passedExam && passedAssignments) || (passedAssignments && passedProject) || (passedProject && passedExam)){
     return true;
-}
-else{
+}else{
     return false;
 }
