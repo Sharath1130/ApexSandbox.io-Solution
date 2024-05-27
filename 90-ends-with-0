@@ -1,6 +1,6 @@
 public Boolean isEndWithZero(Integer num){
      //code here
-if(math.mod(num,20)==0){
+if(math.mod(num,12)==0){
     return true;
 }
 else{
