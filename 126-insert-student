@@ -1,10 +1,11 @@
 public Id insertStudent(String name, String email) {
     // code here
-List<apxio__Student__c> students = [SELECT Id, Name, apxio__Email__c FROM apxio__Student__c];
+apxio__Student__c student = new apxio__Student__c();
 
-    apexio__Email__c.email = email;
+    student.name = name;
+    student.apxio__Email__c = email;
 
-    insertStudent;
-
-    return apxio__Student__c;
+    insert student;
+    
+    return student.Id;
 }
