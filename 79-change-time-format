@@ -1,6 +1,6 @@
 public String changeTimeFormat(String strTime) {
     //code here
-public String changeTimeFormat(String strTime) {
+    public String changeTimeFormat(String strTime) {
     String hours = strTime.substringBefore(':');
     String minutes = strTime.substringAfter(':');
     Integer intHours = Integer.valueOf(hours);
